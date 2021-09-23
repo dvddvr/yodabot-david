@@ -1,0 +1,88 @@
+@import url('https://use.fontawesome.com/releases/v5.15.0/css/all.css');
+
+// Fonts
+@font-face {
+    font-family: Star Jedi;
+    src: url('/fonts/StarJedi.woff');
+}
+@import url('https://fonts.googleapis.com/css2?family=Coustard&display=swap');
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+/*Estilos generales*/
+main {
+	padding-top: 3rem;
+	padding-bottom: 9rem;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+a:hover {
+	color: #EDEDED;
+}
+ul {
+	margin-bottom: 0;
+}
+input[type="text"] {
+	min-width: 200px;
+}
+.mensaje:nth-child(even) {
+	padding-bottom: 0.3em;
+}
+.yoda-help {
+	max-width: 400px;
+}
+
+/*Encabezados*/
+h1 {
+	font-family: 'Star Jedi', arial;
+	text-align: center;
+}
+h2 {
+	font-family: 'Coustard', serif;
+	text-align: center;
+	margin-bottom: 0.7em;
+}
+
+/*Top*/
+.top {
+	background-color: #33A02B;
+}
+.top img {
+	max-width: 100%;
+}
+
+/*Footer*/
+footer {
+	color: #FFF;
+	background-color: #33A02B;
+}
+footer img {
+	max-width: 60px;
+}
+
+/*Modal*/
+.close {
+    float: right;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    background-color: #FFF;
+    opacity: .5;
+    border: none;
+}
+
+/*Font Awesome*/
+.mensaje .far {
+	color: #33A02B;
+}
+
+/*Media queries*/
+@media (max-width: 767px) {
+	main {
+		padding-bottom: 15rem;
+	}
+}
