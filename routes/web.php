@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Contracts\Routing\UrlGenerator
+use Illuminate\Contracts\Routing\UrlGenerator;
 
 Route::get('/', 'ConversationController@index');
 
