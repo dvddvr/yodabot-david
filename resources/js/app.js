@@ -20,7 +20,7 @@ const router = new VueRouter({
     mode: 'history',
     routes: [
         {
-            path: '/',
+            path: '/conversation',
             name: 'conversation',
             component: conversation
         }
