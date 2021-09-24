@@ -23,6 +23,7 @@
     "dependencies": {
         "bootstrap": "^5.1.1",
         "jquery": "^3.6.0",
+        "urlgenerator": "^0.7.4",
         "vue": "^2.6.14",
         "vue-router": "^3.5.2",
         "webpack": "^5.53.0"
