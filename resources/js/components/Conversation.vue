@@ -42,7 +42,7 @@
         },
 
 		mounted() {
-			axios.get('conversation/history/').then(({data}) => {
+			axios.get('https://yodabot-david.herokuapp.com/conversation/history').then(({data}) => {
                 this.messages = data;
             }).catch(({response}) => {
             	this.errors = response.data.errors;
